@@ -1,0 +1,13 @@
+POST http://localhost:3003/transfer
+Content-Type: application/json
+
+{"cuenta":"0xff21E724B7D483fc93708855AbE6ee4f1eD97BF3", "amount":"1.0"  }
+
+###
+POST http://localhost:3003/issue
+Content-Type: application/json
+
+{
+    "address":"xxx",
+    "signature":"xxxxx",
+    "roles":["ciudadano", "funcionario"]  }
